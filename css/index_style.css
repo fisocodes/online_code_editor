@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    background-color: #212121;
+}
+
+#translateButton, #runButton, #clearButton{
+    float: right;
+    margin: 0.25rem;
+}
+
+.editor-container{
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.console{
+    background-color: #212F3C;
+    color: #D5D8DC;
+    width: 100% !important;
+    height: 25vh !important;
+}
+
+.ace-editor{
+    height: 60vh !important;
+    width: 45vw !important;
+    background-color: #212F3C;
+    color: #D5D8DC;
+}
+
+.ace_gutter{
+    background-color: #17202A !important;
+    color: #D5D8DC !important;
+}
+
+.ace_gutter .ace_gutter-active-line{
+    background-color: #212F3C;
+}
